@@ -5,3 +5,7 @@ https://stackoverflow.com/questions/51674627/insufficient-permissions-in-vscode
 source myenv/bin/activate
 cd djangochat
 python manage.py runserver
+
+#migration
+python manage.py makemigrations
+python manage.py migrate
