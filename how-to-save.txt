@@ -1,1 +1,0 @@
-https://stackoverflow.com/questions/51674627/insufficient-permissions-in-vscode

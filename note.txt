@@ -1,0 +1,7 @@
+# how to save from remove container
+https://stackoverflow.com/questions/51674627/insufficient-permissions-in-vscode
+
+# how to run
+source myenv/bin/activate
+cd djangochat
+python manage.py runserver
