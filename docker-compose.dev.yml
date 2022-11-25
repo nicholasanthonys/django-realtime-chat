@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  app:
+    image: python:3.9.15-bullseye
+    ports:
+      - "8002:3000"
+    networks:
+      - django-chat-network
+    volumes: 
+      - .:/app
+    tty: true
+  
+volumes: 
+  django-chat-db:
+
+networks:
+  django-chat-network:
